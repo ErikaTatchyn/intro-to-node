@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <input type="text" name="num1" placeholder="first num" />
+      <fieldset>
+        <input
+          type="radio"
+          name="operation"
+          id="add"
+          value="add"
+          checked
+        /><label for="add">+</label>
+        <input type="radio" name="operation" id="minus" value="minus" /><label
+          for="minus"
+          >-</label
+        >
+        <input
+          type="radio"
+          name="operation"
+          id="multiply"
+          value="multiply"
+        /><label for="multiply">*</label>
+        <input type="radio" name="operation" id="divide" value="divide" /><label
+          for="divide"
+          >/</label
+        >
+      </fieldset>
+      <input type="text" name="num2" placeholder="second num" />
+      <button type="submit" name="calc">Calculate</button>
+    </form>
+  </body>
+</html>
